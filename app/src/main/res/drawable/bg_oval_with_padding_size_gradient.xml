@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp" />
+
+    <size
+        android:width="200dp"
+        android:height="200dp" />
+
+    <!-- 放射渐变, 渐变半径为160 -->
+    <gradient
+        android:centerColor="#00FF00"
+        android:endColor="#FF0000"
+        android:gradientRadius="160"
+        android:startColor="#0000FF"
+        android:type="radial" />
+</shape>

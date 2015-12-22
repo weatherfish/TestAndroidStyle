@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/g1"
+        android:drawable="@mipmap/girl1"
+        android:state_activated="true" />
+    <item
+        android:id="@+id/g2"
+        android:drawable="@mipmap/girl6" />
+
+    <transition
+        android:drawable="@drawable/drawable_animation_list"
+        android:fromId="@+id/g1"
+        android:toId="@+id/g2" />
+    <transition
+        android:drawable="@drawable/drawable_animation_list_reserve"
+        android:fromId="@+id/g2"
+        android:toId="@+id/g1" />
+</animated-selector>

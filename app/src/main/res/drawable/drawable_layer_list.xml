@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="100dp">
+        <bitmap
+            android:alpha="0.3"
+            android:src="@mipmap/girl1" />
+    </item>
+    <item android:top="100dp">
+        <bitmap
+            android:alpha="0.3"
+            android:src="@mipmap/girl2" />
+    </item>
+</layer-list>

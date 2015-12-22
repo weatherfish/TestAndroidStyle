@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:antialias="true"
+    android:dither="true"
+    android:src="@mipmap/cat"
+    android:tint="#33333333"
+    android:tintMode="add">
+</bitmap>

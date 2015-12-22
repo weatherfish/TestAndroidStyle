@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bitmap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BitmapDrawable" />
+
+        <Button
+            android:id="@+id/tintBitmap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TintBitmapDrawable" />
+
+        <Button
+            android:id="@+id/ninePatch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ninePatch" />
+
+        <Button
+            android:id="@+id/insertDrawable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="insertDrawable" />
+
+        <Button
+            android:id="@+id/clipDrawable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="clipDrawable" />
+
+
+        <Button
+            android:id="@+id/scaleDrawable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="scaleDrawable" />
+
+        <Button
+            android:id="@+id/rotateDrawable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rotateDrawable" />
+
+        <Button
+            android:id="@+id/animationListDrawable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="animationListDrawable" />
+
+        <Button
+            android:id="@+id/layerListDrawable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="layerListDrawable" />
+
+        <Button
+            android:id="@+id/levelListDrawable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="levelListDrawable" />
+
+        <Button
+            android:id="@+id/transitionDrawable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="transitionDrawable" />
+
+        <Button
+            android:id="@+id/animatedRotateDrawable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="animatedRotateDrawable" />
+
+        <Button
+            android:id="@+id/animatedSelectorDrawable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="animatedSelectorDrawable" />
+
+        <Button
+            android:id="@+id/vectorDrawable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="vectorDrawable" />
+
+        <Button
+            android:id="@+id/starVectorDrawable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="starVectorDrawable" />
+    </LinearLayout>
+</ScrollView>

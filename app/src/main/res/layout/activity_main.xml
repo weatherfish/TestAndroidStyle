@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="shape" />
+
+    <Button
+        android:id="@+id/drawable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="drawable" />
+
+    <Button
+        android:id="@+id/animator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="animator" />
+</LinearLayout>

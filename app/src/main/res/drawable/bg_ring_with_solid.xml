@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ring 画一个环: innerRadius 内环半径; thicknessRatio 环的宽厚比,默认为9;useLevel LevelListDrawable时为true,其他为false-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadius="30dp"
+    android:shape="ring"
+    android:thicknessRatio="10"
+    android:useLevel="false">
+    <solid android:color="#886688" />
+</shape>

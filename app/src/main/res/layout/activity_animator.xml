@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.felix.testandroidstyle.animator.AnimatorActivity">
+
+    <Button
+        android:id="@+id/btnAnimator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ButtonWidthAnimator" />
+
+    <Button
+        android:id="@+id/valueAnimator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="valueAnimator" />
+
+    <Button
+        android:id="@+id/propertyValuesHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="propertyValuesHolder" />
+
+    <Button
+        android:id="@+id/evaluatorAnimator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="evaluatorAnimator" />
+
+    <Button
+        android:id="@+id/viewPropertyAnimator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="viewPropertyAnimator" />
+
+    <Button
+        android:id="@+id/keyFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="keyFrame" />
+
+    <Button
+        android:id="@+id/layoutTransition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="layoutTransition" />
+
+</LinearLayout>
+
+
