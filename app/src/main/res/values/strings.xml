@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">TestAndroidStyle</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="item1_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et leo pulvinar, egestas est sit amet, fringilla nisl. Proin ut velit arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras dapibus turpis risus, sit amet feugiat ante viverra vel. Praesent non commodo erat, ut semper sem. Nunc tristique sem non neque ornare facilisis. Sed non porttitor quam.</string>
     <string name="item2_content">Suspendisse sapien metus, ornare ac metus a, ultrices semper risus. Suspendisse auctor adipiscing tortor. Nunc luctus, mauris et ultrices adipiscing, eros lorem vestibulum turpis, quis tincidunt nisi justo ac tellus. Nulla sed mauris eget neque dapibus ullamcorper. Aenean a metus malesuada, adipiscing diam a, auctor nunc. Aenean vel ligula mollis, malesuada elit a, pharetra mauris. Curabitur laoreet neque non tellus sagittis ornare. Aliquam ornare sit amet nunc non rhoncus. Quisque suscipit varius mollis. Aliquam libero nisi, cursus vitae eros sit amet, varius imperdiet quam. Nullam eu elementum arcu. Curabitur a mi turpis. Nam non turpis nisl. Vestibulum volutpat, dui porttitor consectetur fermentum, libero risus accumsan nisi, vitae eleifend quam risus quis velit. Aenean diam magna, pharetra non tempor vitae, tempor vitae sem.</string>
