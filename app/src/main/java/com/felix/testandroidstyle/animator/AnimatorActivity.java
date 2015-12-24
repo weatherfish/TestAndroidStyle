@@ -21,6 +21,10 @@ public class AnimatorActivity extends AppCompatActivity implements View.OnClickL
         findViewById(R.id.viewPropertyAnimator).setOnClickListener(this);
         findViewById(R.id.keyFrame).setOnClickListener(this);
         findViewById(R.id.layoutTransition).setOnClickListener(this);
+        findViewById(R.id.circularReveal).setOnClickListener(this);
+        findViewById(R.id.ripple).setOnClickListener(this);
+       // findViewById(R.id.transition).setOnClickListener(this);
+        //findViewById(R.id.fragmentTransition).setOnClickListener(this);
     }
 
     @Override
@@ -54,6 +58,20 @@ public class AnimatorActivity extends AppCompatActivity implements View.OnClickL
                 startActivity(new Intent(AnimatorActivity.this, LayoutTransitionActivity.class));
                 break;
 
+            case R.id.circularReveal:
+                startActivity(new Intent(AnimatorActivity.this, CircularRevealActivity.class));
+                break;
+
+            case R.id.ripple:
+                startActivity(new Intent(AnimatorActivity.this, RippleActivity.class));
+                break;
+
+//            case R.id.transition:
+//                startActivity(new Intent(AnimatorActivity.this, TransitionActivity.class));
+//                break;
+//            case R.id.fragmentTransition:
+//                startActivity(new Intent(AnimatorActivity.this, TransitionFragmentActivity.class));
+//                break;
 
         }
     }

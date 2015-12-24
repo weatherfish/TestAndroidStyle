@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,12 +7,63 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.felix.testandroidstyle.drawables.TransitionActivity">
+    tools:context="com.felix.testandroidstyle.transition.TransitionActivity">
 
-    <ImageView
-        android:id="@+id/image_transition"
+    <LinearLayout
+        android:id="@+id/root"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/drawable_transition" />
+        android:orientation="vertical">
 
-</RelativeLayout>
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/girl3"
+            android:transitionName="imageView" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:transitionName="textView" />
+
+        <Button
+            android:id="@+id/transitionDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="transitionDemo" />
+
+        <Button
+            android:id="@+id/transitionExplode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="transitionExplode" />
+
+        <Button
+            android:id="@+id/transitionFade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="transitionFade" />
+
+        <Button
+            android:id="@+id/transitionSlide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="transitionFade" />
+
+        <Button
+            android:id="@+id/transitionManager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="transitionManager" />
+
+        <Button
+            android:id="@+id/transitionShared"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="transitionShared" />
+
+    </LinearLayout>
+
+</ScrollView>

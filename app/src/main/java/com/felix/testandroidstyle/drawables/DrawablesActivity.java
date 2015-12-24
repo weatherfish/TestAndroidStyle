@@ -24,7 +24,6 @@ public class DrawablesActivity extends AppCompatActivity implements View.OnClick
         findViewById(R.id.animationListDrawable).setOnClickListener(this);
         findViewById(R.id.layerListDrawable).setOnClickListener(this);
         findViewById(R.id.levelListDrawable).setOnClickListener(this);
-        findViewById(R.id.transitionDrawable).setOnClickListener(this);
         findViewById(R.id.animatedRotateDrawable).setOnClickListener(this);
         findViewById(R.id.animatedSelectorDrawable).setOnClickListener(this);
         findViewById(R.id.vectorDrawable).setOnClickListener(this);
@@ -65,9 +64,6 @@ public class DrawablesActivity extends AppCompatActivity implements View.OnClick
                 break;
             case R.id.levelListDrawable:
                 startActivity(new Intent(DrawablesActivity.this, LevelListActivity.class));
-                break;
-            case R.id.transitionDrawable:
-                startActivity(new Intent(DrawablesActivity.this, TransitionActivity.class));
                 break;
             case R.id.animatedRotateDrawable:
                 startActivity(new Intent(DrawablesActivity.this, AnimatedRoteteActivity.class));

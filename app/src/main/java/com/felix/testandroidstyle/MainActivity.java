@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.felix.testandroidstyle.animator.AnimatorActivity;
+import com.felix.testandroidstyle.transition.TransitionActivity;
 import com.felix.testandroidstyle.drawables.DrawablesActivity;
 import com.felix.testandroidstyle.shape.ShapeActivity;
 
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.shape).setOnClickListener(this);
         findViewById(R.id.drawable).setOnClickListener(this);
         findViewById(R.id.animator).setOnClickListener(this);
+        findViewById(R.id.transition).setOnClickListener(this);
     }
 
     @Override
@@ -29,9 +31,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.drawable:
                 startActivity(new Intent(MainActivity.this, DrawablesActivity.class));
-
+                break;
             case R.id.animator:
                 startActivity(new Intent(MainActivity.this, AnimatorActivity.class));
+                break;
+
+            case R.id.transition:
+                startActivity(new Intent(MainActivity.this, TransitionActivity.class));
+                break;
         }
     }
 }

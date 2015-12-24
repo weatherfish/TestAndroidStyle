@@ -33,7 +33,6 @@
         <activity android:name=".drawables.AnimationListActivity" />
         <activity android:name=".drawables.LayerListActivity" />
         <activity android:name=".drawables.LevelListActivity" />
-        <activity android:name=".drawables.TransitionActivity" />
         <activity android:name=".drawables.AnimatedRoteteActivity" />
         <activity android:name=".drawables.AnimatedSelectorActivity" />
         <activity android:name=".drawables.VectorDrawableActivity" />
@@ -45,7 +44,23 @@
         <activity android:name=".animator.EvaluatorActivity" />
         <activity android:name=".animator.ViewPropertyAnimatorActivity" />
         <activity android:name=".animator.KeyFrameActivity" />
-        <activity android:name=".animator.LayoutTransitionActivity"></activity>
+        <activity android:name=".animator.LayoutTransitionActivity" />
+        <activity android:name=".animator.CircularRevealActivity" />
+        <activity
+            android:name=".animator.RippleActivity"
+            android:theme="@style/AppTheme.Ripple" />
+        <activity
+            android:name=".transition.TransitionActivity"
+            android:theme="@style/AppTheme.Transition" />
+        <activity
+            android:name=".transition.TransitionTargetActivity"
+            android:theme="@style/AppTheme.Transition" />
+        <activity
+            android:name=".transition.TransitionSharedActivity"
+            android:theme="@style/AppTheme.Transition" />
+        <activity
+            android:name=".transition.TransitionManagerActivity"
+            android:theme="@style/AppTheme.Transition" />
     </application>
 
 </manifest>

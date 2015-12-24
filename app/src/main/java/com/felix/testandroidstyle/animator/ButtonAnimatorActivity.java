@@ -18,8 +18,6 @@ public class ButtonAnimatorActivity extends AppCompatActivity implements View.On
         setContentView(R.layout.activity_button_animator);
         button = (Button) findViewById(R.id.btnAnimator);
         button.setOnClickListener(this);
-
-
     }
 
     public void performAnimator() {

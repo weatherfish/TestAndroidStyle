@@ -8,4 +8,49 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.Explode" parent="AppTheme">
+        <item name="android:windowExitTransition">@transition/boom</item>
+        <item name="android:windowReenterTransition">@android:transition/slide_top</item>
+    </style>
+
+    <style name="AppTheme.Ripple" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorControlHighlight">#00FFFF</item>
+        <item name="android:colorAccent">#00AAAA</item>
+
+        <!-- 允许使用transitions -->
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- 指定进入和退出transitions -->
+        <item name="android:windowEnterTransition">@transition/explode</item>
+        <item name="android:windowExitTransition">@transition/explode</item>
+
+        <!-- 指定shared element transitions -->
+        <item name="android:windowSharedElementEnterTransition">
+            @transition/change_image_transform
+        </item>
+        <item name="android:windowSharedElementExitTransition">
+            @transition/change_image_transform
+        </item>
+    </style>
+
+    <style name="AppTheme.Transition" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- 允许使用transitions -->
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- 指定进入和退出transitions -->
+        <!--<item name="android:windowEnterTransition">@transition/explode</item>-->
+        <!--<item name="android:windowExitTransition">@transition/explode</item>-->
+
+        <!--&lt;!&ndash;  返回时效果&ndash;&gt;-->
+        <!--<item name="android:windowReturnTransition">@transition/fade_in</item>-->
+        <!--<item name="android:windowReenterTransition">@transition/fade_out</item>-->
+        <!-- 指定shared element transitions -->
+        <item name="android:windowSharedElementEnterTransition">
+            @transition/change_image_transform
+        </item>
+        <item name="android:windowSharedElementExitTransition">
+            @transition/change_image_transform
+        </item>
+    </style>
+
 </resources>
