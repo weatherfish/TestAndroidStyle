@@ -2,6 +2,9 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:textAllCaps">false</item>
+        
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -9,11 +12,17 @@
     </style>
 
     <style name="AppTheme.Explode" parent="AppTheme">
+
+        <item name="android:textAllCaps">false</item>
+
         <item name="android:windowExitTransition">@transition/boom</item>
         <item name="android:windowReenterTransition">@android:transition/slide_top</item>
     </style>
 
     <style name="AppTheme.Ripple" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:textAllCaps">false</item>
+
         <item name="android:colorControlHighlight">#00FFFF</item>
         <item name="android:colorAccent">#00AAAA</item>
 
@@ -34,6 +43,7 @@
     </style>
 
     <style name="AppTheme.Transition" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textAllCaps">false</item>
         <!-- 允许使用transitions -->
         <item name="android:windowContentTransitions">true</item>
 

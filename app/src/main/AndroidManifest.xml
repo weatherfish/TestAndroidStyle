@@ -61,6 +61,9 @@
         <activity
             android:name=".transition.TransitionManagerActivity"
             android:theme="@style/AppTheme.Transition" />
+        <activity android:name=".transition.LayoutTransitionActivity" />
+        <activity android:name=".transition.LayoutAnimationControllerActivity" />
+        <activity android:name=".transition.ListLayoutTransitionActivity"></activity>
     </application>
 
 </manifest>

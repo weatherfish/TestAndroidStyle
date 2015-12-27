@@ -64,6 +64,24 @@
             android:layout_height="wrap_content"
             android:text="transitionShared" />
 
+        <Button
+            android:id="@+id/layoutTransition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="layoutTransition" />
+
+        <Button
+            android:id="@+id/layoutAnimationController"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/layoutAnimationController" />
+
+        <Button
+            android:id="@+id/listLayoutTransition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="listLayoutTransition" />
+
     </LinearLayout>
 
 </ScrollView>

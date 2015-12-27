@@ -40,6 +40,9 @@ public class TransitionActivity extends AppCompatActivity implements View.OnClic
         findViewById(R.id.transitionSlide).setOnClickListener(this);
         findViewById(R.id.transitionManager).setOnClickListener(this);
         findViewById(R.id.transitionShared).setOnClickListener(this);
+        findViewById(R.id.layoutTransition).setOnClickListener(this);
+        findViewById(R.id.layoutAnimationController).setOnClickListener(this);
+        findViewById(R.id.listLayoutTransition).setOnClickListener(this);
     }
 
 
@@ -88,6 +91,17 @@ public class TransitionActivity extends AppCompatActivity implements View.OnClic
                 startActivity(new Intent(this, TransitionSharedActivity.class), activityOptions.toBundle());
                 break;
 
+            case R.id.layoutTransition:
+                startActivity(new Intent(this, LayoutTransitionActivity.class));
+                break;
+
+            case R.id.layoutAnimationController:
+                startActivity(new Intent(this, LayoutAnimationControllerActivity.class));
+                break;
+
+            case R.id.listLayoutTransition:
+                startActivity(new Intent(this, ListLayoutTransitionActivity.class));
+                break;
         }
     }
 }
